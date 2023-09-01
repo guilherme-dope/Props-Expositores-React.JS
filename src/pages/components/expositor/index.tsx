@@ -1,20 +1,29 @@
 import {Container} from "./style.ts";
 import { BsStar } from "react-icons/bs";
 
-const Expositor = () => {
+
+interface ExpProps {
+
+    img: string;
+    text: string;
+    price: string;
+
+}
+
+const Expositor = ({img, text, price }: ExpProps) => {
     return (
         <Container>
 
             <section>
 
-                <img src="https://i.imgur.com/dD3uPAe.png" alt=""/>
+                <img src={img} alt=""/>
 
 
 
                 <div className="total">
 
                     <div className="text">
-                        <p>Easy Snooze Function Diming Mode</p>
+                        <p>{text}</p>
                     </div>
 
 
@@ -28,7 +37,7 @@ const Expositor = () => {
                         </div>
 
                     </div>
-                    <h1>$210.00</h1>
+                    <h1>${price}</h1>
                 </div>
 
             </section>
