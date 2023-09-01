@@ -8,5 +8,15 @@ export const GlobalStyle = createGlobalStyle`
       list-style: none;
       box-sizing: border-box;
     }
+
+    & p {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      color: gray;
+    }
+
+    & h1 {
+      font-family: "Roboto", sans-serif;
+    }
     
 `;
