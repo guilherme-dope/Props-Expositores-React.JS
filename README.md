@@ -1,27 +1,22 @@
-# React + TypeScript + Vite
+# Teste de Componentes Expositores em React com Vite e TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Neste projeto, realizei um teste de criação de componentes expositores em React utilizando o Vite como ambiente de desenvolvimento e TypeScript para garantir a tipagem segura. O desafio consistiu em criar um componente que não possuísse estado interno, ou seja, todas as informações deveriam ser fornecidas por meio de props. Além disso, utilizei a biblioteca Styled Components para estilização.
 
-Currently, two official plugins are available:
+## Tempo de Construção
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O tempo total gasto na criação deste componente, incluindo a estruturação inicial do ambiente de desenvolvimento, foi de `2 horas e 5 minutos`.
 
-## Expanding the ESLint configuration
+## Detalhes do Componente
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O componente criado atende aos seguintes requisitos:
 
-- Configure the top-level `parserOptions` property like this:
+- É um componente funcional React.
+- Criado em Projeto React com vite + Typescript SWC.
+- Nao possui estado interno, todas as informacoes sao fornecidas via PROPS.
+- Utilizado Styled Components
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Conclusão
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Este projeto foi uma oportunidade de testar minhas habilidades na criação de componentes expositores em React, garantindo a passagem de todas as informações por props e utilizando TypeScript para uma tipagem segura. Além disso, a utilização do Vite como ambiente de desenvolvimento proporcionou uma configuração rápida e eficiente.
+
+O código fonte completo do componente pode ser encontrado [aqui](https://github.com/guilherme-dope/Props-Expositores-React.JS).
