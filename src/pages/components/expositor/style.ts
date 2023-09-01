@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    
   background: white;
   border-style: solid;
   border-width: 1px;
@@ -16,21 +15,17 @@ export const Container = styled.div`
   word-break: normal;
 
   & section {
-    
     display: flex;
     flex-direction: column;
     align-items: end;
-    
-    
-    & .total{
+
+    & .total {
       display: flex;
       flex-direction: column;
       text-align: right;
-      
-      
     }
-    
-    & .rating{
+
+    & .rating {
       display: flex;
       justify-content: end;
       color: gray;
@@ -43,22 +38,19 @@ export const Container = styled.div`
       color: darkorange;
       gap: 3px;
       margin-left: 3px;
-
     }
-    
+
     & .text {
       width: 200px;
       font-size: 14px;
       margin-bottom: 4px;
     }
-    
   }
 
-    & img {
-      height: 200px;
-      width: 200px;
-      border-radius: 10px;
-      margin: 0 0 24px;
-      
-    }
-`
+  & img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0 0 24px;
+  }
+`;
