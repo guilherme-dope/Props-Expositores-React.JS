@@ -1,4 +1,4 @@
-# Teste de Componentes Expositores em React com Vite e TypeScript
+# Teste de Componentes Expositores em React com Vite e TypeScript SWC
 
 Neste projeto, realizei um teste de criação de componentes expositores em React utilizando o Vite como ambiente de desenvolvimento e TypeScript para garantir a tipagem segura. O desafio consistiu em criar um componente que não possuísse estado interno, ou seja, todas as informações deveriam ser fornecidas por meio de props. Além disso, utilizei a biblioteca Styled Components para estilização.
 
